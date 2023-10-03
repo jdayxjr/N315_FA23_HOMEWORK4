@@ -15,7 +15,7 @@ $(document).ready(function () {
         var username = $('#username').val();
         var password = $('#password').val();
 
-        // For demonstration purposes, just show an alert indicating signed-in
+        // alert indicating signed-in
         alert('Signed in as ' + username);
         $('#loginModal').css('display', 'none');
     });
